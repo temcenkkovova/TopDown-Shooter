@@ -1,0 +1,146 @@
+{
+    "name": "PlayerController",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "eb7fe30a-6717-4f68-8df5-db2f9e32cc1b",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "634ca102-e32a-451a-9dca-9687d6888ab4",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "824ce686-2107-4452-991b-a2391de268a3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Reload",
+                    "type": "Button",
+                    "id": "f2ac34eb-c1b7-4f00-9a5c-e95ff51e17c7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "3D Vector",
+                    "id": "64774367-9be0-4cc1-ab8a-75e4da29cf22",
+                    "path": "3DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "af534ec4-7893-4201-b597-bb8333d59843",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "5921e498-3052-4c9a-b00c-c3dff1254d42",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "f462c953-6b5a-40a7-ab87-1d2d8bff37ba",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f3689530-18e5-4e46-b965-8c7bf637c59e",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "4d9d11c5-1132-4194-a31b-1172835be862",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ad2dc35-6c09-4e60-ba68-5e098bdd57f4",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Game",
+            "id": "ff6f7228-3480-48a0-86da-bc37e2e64311",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "3114f53d-368d-4281-947b-3d7cb46ef11b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ce84c5d6-c468-4011-ae6c-c4a1ecec25c8",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
