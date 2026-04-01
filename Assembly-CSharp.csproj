@@ -66,6 +66,7 @@
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Project\InputSystem\PlayerController.cs" />
+    <Compile Include="Assets\Project\Components\GameControllers\GameManager.cs" />
     <Compile Include="Assets\Project\Components\Waves\WaveMenuControllerUI.cs" />
     <Compile Include="Assets\Project\Components\Enemy\EnemyControllers\SpawnEnemy.cs" />
     <Compile Include="Assets\Project\Components\GameControllers\GameFlowController.cs" />
