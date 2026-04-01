@@ -122,6 +122,8 @@
     <Compile Include="Assets\Project\Components\ScriptableObjects\TakeableWeapons\WeaponItem.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\TakeableWeapons\RarityConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\DropData.cs" />
+    <Compile Include="Assets\Project\Components\Interfaces\IWeaponEquipment.cs" />
+    <Compile Include="Assets\Project\Components\Interfaces\ITakeable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
