@@ -69,15 +69,18 @@
     <Compile Include="Assets\Project\Components\GameControllers\GameManager.cs" />
     <Compile Include="Assets\Project\Components\Waves\WaveMenuControllerUI.cs" />
     <Compile Include="Assets\Project\Components\Enemy\EnemyControllers\SpawnEnemy.cs" />
+    <Compile Include="Assets\Project\Components\Camera\CameraController.cs" />
     <Compile Include="Assets\Project\Components\Economics\GameEconomy.cs" />
     <Compile Include="Assets\Project\Components\GameControllers\GameFlowController.cs" />
     <Compile Include="Assets\Project\Components\Waves\WaveController.cs" />
     <Compile Include="Assets\Project\Components\Waves\EnemyWaveController.cs" />
     <Compile Include="Assets\Project\Components\Enemy\EnemyControllers\EnemyManager.cs" />
+    <Compile Include="Assets\Project\Components\Core\DropItemController.cs" />
     <Compile Include="Assets\Project\Components\InputController\PlayerInput.cs" />
     <Compile Include="Assets\Project\Components\Player\PlayerComponent.cs" />
     <Compile Include="Assets\Project\Components\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Project\Components\Player\PlayerAnimationController.cs" />
+    <Compile Include="Assets\Project\Components\Levels\PlayerLevel.cs" />
     <Compile Include="Assets\Project\Components\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Project\Components\Player\PlayerAudio.cs" />
     <Compile Include="Assets\Project\Components\Player\PlayerTriggerEvents.cs" />
@@ -124,6 +127,10 @@
     <Compile Include="Assets\Project\Components\ScriptableObjects\DropData.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IWeaponEquipment.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\ITakeable.cs" />
+    <Compile Include="Assets\Project\Components\Effects\AutoDestroyEffect.cs" />
+    <Compile Include="Assets\Project\Components\Effects\HitEffect.cs" />
+    <Compile Include="Assets\Project\Components\Player\PlayerWeaponController.cs" />
+    <Compile Include="Assets\Project\Components\Core\Health.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
