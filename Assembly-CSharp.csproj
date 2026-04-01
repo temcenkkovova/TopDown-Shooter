@@ -137,11 +137,14 @@
     <Compile Include="Assets\Project\Components\ScriptableObjects\DropData.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\Enemies\BossAbilityConfig.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IEnumyState.cs" />
+    <Compile Include="Assets\Project\Components\Interfaces\IExpReward.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IBossAbility.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IWaveState.cs" />
+    <Compile Include="Assets\Project\Components\Interfaces\IRewardable.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IDamageable.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IWaveProvider.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IWeaponEquipment.cs" />
+    <Compile Include="Assets\Project\Components\Interfaces\IPhaseState.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\ITakeable.cs" />
     <Compile Include="Assets\Project\Components\Effects\AutoDestroyEffect.cs" />
     <Compile Include="Assets\Project\Components\Effects\HitEffect.cs" />
