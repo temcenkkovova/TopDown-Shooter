@@ -125,13 +125,21 @@
     <Compile Include="Assets\Project\Components\ScriptableObjects\Player\Upgrades\UpgradeHP.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\DropItem.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\Player\PlayerUpgradeConfig.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Enemies\Abilities\SpawnEnemyAbilityConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\Player\Upgrades\UpgradeMoveSpeed.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Enemies\Abilities\SlamAbilityConfig.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Enemies\EnemyConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\AttackConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\TakeableWeapons\WeaponItem.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Enemies\BossConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\TakeableWeapons\RarityConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\Waves\WaveConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\DropData.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Enemies\BossAbilityConfig.cs" />
+    <Compile Include="Assets\Project\Components\Interfaces\IEnumyState.cs" />
+    <Compile Include="Assets\Project\Components\Interfaces\IBossAbility.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IWaveState.cs" />
+    <Compile Include="Assets\Project\Components\Interfaces\IDamageable.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IWaveProvider.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IWeaponEquipment.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\ITakeable.cs" />
@@ -140,6 +148,7 @@
     <Compile Include="Assets\Project\Components\Player\PlayerWeaponController.cs" />
     <Compile Include="Assets\Project\Components\Core\Health.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\PlayerConfig.cs" />
+    <Compile Include="Assets\Project\Components\Interfaces\IAttackStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
