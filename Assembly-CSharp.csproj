@@ -129,7 +129,10 @@
     <Compile Include="Assets\Project\Components\ScriptableObjects\AttackConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\TakeableWeapons\WeaponItem.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\TakeableWeapons\RarityConfig.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Waves\WaveConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\DropData.cs" />
+    <Compile Include="Assets\Project\Components\Interfaces\IWaveState.cs" />
+    <Compile Include="Assets\Project\Components\Interfaces\IWaveProvider.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IWeaponEquipment.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\ITakeable.cs" />
     <Compile Include="Assets\Project\Components\Effects\AutoDestroyEffect.cs" />
