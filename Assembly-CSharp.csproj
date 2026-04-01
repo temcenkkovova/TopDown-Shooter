@@ -118,6 +118,8 @@
     <Compile Include="Assets\Project\Components\Weapons\WeaponAbilityConfig.cs" />
     <Compile Include="Assets\Project\Components\Weapons\Projectiles\AbilityProjectile.cs" />
     <Compile Include="Assets\Project\Components\Drop\DropItemRarity.cs" />
+    <Compile Include="Assets\Project\Components\DropItem.cs" />
+    <Compile Include="Assets\Project\Components\Item.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
