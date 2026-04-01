@@ -74,6 +74,7 @@
     <Compile Include="Assets\Project\Components\Waves\WaveController.cs" />
     <Compile Include="Assets\Project\Components\Waves\EnemyWaveController.cs" />
     <Compile Include="Assets\Project\Components\Enemy\EnemyControllers\EnemyManager.cs" />
+    <Compile Include="Assets\Project\Components\InputController\PlayerInput.cs" />
     <Compile Include="Assets\Project\Components\Player\PlayerComponent.cs" />
     <Compile Include="Assets\Project\Components\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Project\Components\Player\PlayerAnimationController.cs" />
@@ -104,6 +105,19 @@
     <Compile Include="Assets\Project\Components\Enemy\EnemyMovement.cs" />
     <Compile Include="Assets\Project\Components\GameControllers\GameStateController.cs" />
     <Compile Include="Assets\Project\Components\Economics\RewardSystem.cs" />
+    <Compile Include="Assets\Project\Components\Weapons\Projectiles\WeaponAudio.cs" />
+    <Compile Include="Assets\Project\Components\Environment\TakeItem.cs" />
+    <Compile Include="Assets\Project\Components\Weapons\Weapon.cs" />
+    <Compile Include="Assets\Project\Components\Weapons\Projectiles\ProjectileTriggersEvent.cs" />
+    <Compile Include="Assets\Project\Components\Weapons\WeaponLevelData.cs" />
+    <Compile Include="Assets\Project\Components\Weapons\Projectiles\Projectile.cs" />
+    <Compile Include="Assets\Project\Components\Environment\ItemTriggerEvents.cs" />
+    <Compile Include="Assets\Project\Components\Weapons\WeaponRotate.cs" />
+    <Compile Include="Assets\Project\Components\Weapons\WeaponsStats.cs" />
+    <Compile Include="Assets\Project\Components\DropData.cs" />
+    <Compile Include="Assets\Project\Components\Weapons\WeaponAbilityConfig.cs" />
+    <Compile Include="Assets\Project\Components\Weapons\Projectiles\AbilityProjectile.cs" />
+    <Compile Include="Assets\Project\Components\Drop\DropItemRarity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
