@@ -427,10 +427,10 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.15\Editor\Drawing\Inspector\PropertyDrawers\SamplerStateNodePropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.15\Editor\Data\Legacy\ILegacyTarget.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.15\Editor\Data\Nodes\Input\Geometry\BitangentVectorNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.15\Editor\Drawing\Blackboard\SGBlackboard.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.15\Editor\Generation\Enumerations\NormalDropOffSpace.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.15\Editor\Drawing\Views\Slots\GradientSlotControlView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.15\Editor\Generation\Collections\PassCollection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.15\Editor\Drawing\Blackboard\SGBlackboard.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.15\Editor\Util\MessageManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.15\Editor\Generation\Enumerations\Platform.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.15\Editor\Data\Implementation\Edge.cs" />

@@ -75,9 +75,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Interface\LudiqGUIUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Analysis\IGraphElementAnalysis.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Threading\ThreadableAssetWrapper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\EditorAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\InspectorBlock.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_1_2.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\EditorAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Reflection\EnumOptionTree.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Description\GraphDescription.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Migrations\Migration_Asset_to_Package.cs" />
@@ -259,8 +259,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Interface\Icons\Icons.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\OptimizedEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_0_1.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_2.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Acknowledgements\Acknowledgement_YamlDotNet.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_2.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Context\IGraphContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Reflection\NamespaceOption.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Acknowledgements\Acknowledgement_FullSerializer.cs" />
@@ -412,8 +412,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Windows\ListPage.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Description\IMacroDescription.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\PackageEventListener.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Description\IMacroDescription.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Meta\EditorPrefMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Acknowledgements\Acknowledgement_DeepCopy.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\ReorderableList\ElementAdderMenu\IElementAdderMenuCommand.cs" />

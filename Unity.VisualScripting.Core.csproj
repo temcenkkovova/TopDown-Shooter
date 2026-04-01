@@ -122,8 +122,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Graphs\GraphPointerException.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Machines\IMachine.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\Optimization\StaticFunctionInvokerBase.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Listeners\MonoBehaviour\UnityOnCollisionEnterMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Converters\fsTypeConverter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Listeners\MonoBehaviour\UnityOnCollisionEnterMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Serialization\Converters\NamespaceConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\SerializedProperties\SerializedPropertyProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Events\EventMachine.cs" />
@@ -389,8 +389,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Converters\fsPrimitiveConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\Optimization\Func_6.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Variables\VariableDeclarationCollection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Serialization\SerializableType.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\LooseAssemblyName.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Serialization\SerializableType.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\Optimization\OptimizedReflection.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Converters\fsForwardConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\EditorBinding\TypeIconAttribute.cs" />

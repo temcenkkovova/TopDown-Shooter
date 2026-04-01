@@ -66,6 +66,12 @@
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Project\InputSystem\PlayerController.cs" />
+    <Compile Include="Assets\Project\Components\Player\PlayerComponent.cs" />
+    <Compile Include="Assets\Project\Components\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Project\Components\Player\PlayerAnimationController.cs" />
+    <Compile Include="Assets\Project\Components\Player\PlayerHealth.cs" />
+    <Compile Include="Assets\Project\Components\Player\PlayerAudio.cs" />
+    <Compile Include="Assets\Project\Components\Player\PlayerTriggerEvents.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
