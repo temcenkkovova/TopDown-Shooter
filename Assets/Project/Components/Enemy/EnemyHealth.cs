@@ -1,0 +1,14 @@
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class EnemyHealth : Health
+{
+
+  protected override void Die()
+  {
+    base.Die();
+
+
+
+  }
+}
