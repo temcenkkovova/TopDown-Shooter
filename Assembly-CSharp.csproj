@@ -74,6 +74,7 @@
     <Compile Include="Assets\Project\Components\GameControllers\GameFlowController.cs" />
     <Compile Include="Assets\Project\Components\Waves\WaveController.cs" />
     <Compile Include="Assets\Project\Components\Waves\EnemyWaveController.cs" />
+    <Compile Include="Assets\Project\Components\Upgrades\UpgradeManager.cs" />
     <Compile Include="Assets\Project\Components\Enemy\EnemyControllers\EnemyManager.cs" />
     <Compile Include="Assets\Project\Components\Core\DropItemController.cs" />
     <Compile Include="Assets\Project\Components\InputController\PlayerInput.cs" />
@@ -132,10 +133,13 @@
     <Compile Include="Assets\Project\Components\ScriptableObjects\AttackConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\TakeableWeapons\WeaponItem.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\Enemies\BossConfig.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Economy\EconomyConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\TakeableWeapons\RarityConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\Waves\WaveConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\DropData.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\Enemies\BossAbilityConfig.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Attack\MeleeAttackConfig.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Attack\RangedAttackConfig.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IEnumyState.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IExpReward.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IBossAbility.cs" />
