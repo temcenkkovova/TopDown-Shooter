@@ -156,6 +156,7 @@
     <Compile Include="Assets\Project\Components\Core\Health.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\PlayerConfig.cs" />
     <Compile Include="Assets\Project\Components\Interfaces\IAttackStrategy.cs" />
+    <Compile Include="Assets\Project\Components\Upgrades\UpgradeSlot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
