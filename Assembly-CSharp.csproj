@@ -103,6 +103,7 @@
     <Compile Include="Assets\Project\Components\Enemy\Bosses\BossStates\FirstPhaseState.cs" />
     <Compile Include="Assets\Project\Components\Enemy\EnemyMovement.cs" />
     <Compile Include="Assets\Project\Components\GameControllers\GameStateController.cs" />
+    <Compile Include="Assets\Project\Components\Economics\RewardSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
