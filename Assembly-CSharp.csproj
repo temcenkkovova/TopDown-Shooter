@@ -121,7 +121,12 @@
     <Compile Include="Assets\Project\Components\Weapons\Projectiles\AbilityProjectile.cs" />
     <Compile Include="Assets\Project\Components\Drop\DropItemRarity.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\Item.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Player\PlayerStats.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Player\Upgrades\UpgradeHP.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\DropItem.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Player\PlayerUpgradeConfig.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\Player\Upgrades\UpgradeMoveSpeed.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\AttackConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\TakeableWeapons\WeaponItem.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\TakeableWeapons\RarityConfig.cs" />
     <Compile Include="Assets\Project\Components\ScriptableObjects\DropData.cs" />
@@ -131,6 +136,7 @@
     <Compile Include="Assets\Project\Components\Effects\HitEffect.cs" />
     <Compile Include="Assets\Project\Components\Player\PlayerWeaponController.cs" />
     <Compile Include="Assets\Project\Components\Core\Health.cs" />
+    <Compile Include="Assets\Project\Components\ScriptableObjects\PlayerConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
